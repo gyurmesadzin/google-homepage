@@ -1,4 +1,68 @@
 body {
 	background-color: #ffffff;
 }
-test test 
+
+.toptext {
+	position: absolute;
+	right: 200px;
+	top: 23px;
+}
+
+#apps {
+	position: absolute;
+	right: 165px;
+	top: 18px;
+}
+
+#bell {
+	position: absolute;
+	right: 120px;
+	top: 16px;
+}
+
+#plus {
+	position: absolute;
+	right: 75px;
+	top: 16px;
+}
+
+#avatar {
+	position: absolute;
+	right: 26px;
+	top: 8px;
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	width: 450px;
+}
+
+#logo img {
+	width: 100%;
+	height: auto;
+}
+
+.toptext a {
+	text-decoration: none;
+	color: #000000;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+.toptext a:hover {
+	text-decoration: underline;
+}
+
+div ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	width: 50px;
+	vertical-align: middle;
+}
