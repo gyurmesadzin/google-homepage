@@ -44,6 +44,38 @@ body {
 	height: auto;
 }
 
+#form {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	width: 600px;
+	height: 35px;
+}
+
+#mic {
+	position: absolute;
+	right: 220px;
+	top: 326px;
+}
+
+div form {
+	width: 550px;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+	width: 550px;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input:hover {
+	border: 1px solid #aaaaaa;
+}
+
 .toptext a {
 	text-decoration: none;
 	color: #000000;
@@ -61,7 +93,78 @@ div ul {
 	padding: 0;
 }
 
-li {
+.toptext li {
+	display: inline-block;
+	width: 50px;
+	vertical-align: middle;
+}
+
+#search {
+	position: absolute;
+	right: 510px;
+	bottom: 265px;
+	height: 20px;
+	background-color: #f6f6f6;
+	width: 90px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+#search a {
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-color: #000000;
+	font-weight: bold;
+}
+
+#lucky {
+	position: absolute;
+	right: 385px;
+	bottom: 265px;
+	height: 20px;
+	background-color: #f6f6f6;
+	width: 105px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	padding-top: 5px;
+}
+
+#lucky a {
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-color: #000000;
+	font-weight: bold;
+}
+
+.footer {
+	position: absolute;
+	width: 100px
+	bottom: 1px;
+	background-color: #f6f6f6;
+}
+
+.footer {
+	text-decoration: none;
+	color: #000000;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+#leftfooter li {
+	display: inline-block;
+	width: 50px;
+	vertical-align: middle;
+}
+
+#rightfooter li {
 	display: inline-block;
 	width: 50px;
 	vertical-align: middle;
